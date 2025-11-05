@@ -1,0 +1,142 @@
+/* --- Estilos Generales --- */
+body {
+    background-color: #f4f1e9; /* Un color beige claro, como el desierto */
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* --- Encabezado --- */
+header {
+    text-align: center;
+    border-bottom: 4px solid #4a7c59; /* Verde oscuro característico */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #222;
+    margin: 0;
+}
+
+/* --- Barra de Navegación (Marcadores) --- */
+nav {
+    text-align: center;
+    background-color: #333;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #f4f1e9;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px;
+    padding: 5px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #4a7c59;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* --- Secciones y Títulos --- */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #4a7c59;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* --- Párrafos y Listas --- */
+p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none; /* Quitamos los puntos por defecto */
+    padding-left: 0;
+}
+
+ul li {
+    background-color: #f9f9f9;
+    border-left: 5px solid #ffc107; /* Un acento de color ámbar/amarillo */
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 0 5px 5px 0;
+}
+
+/* --- Imágenes --- */
+img {
+    max-width: 80%; /* Hacemos la imagen más pequeña */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centrar la imagen */
+    border-radius: 8px;
+    border: 3px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* --- Tablas --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4a7c59; /* Verde oscuro para las cabeceras */
+    color: white;
+    font-size: 1.1em;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Filas con colores alternos para mejor lectura */
+}
+
+tr:hover {
+    background-color: #e9e4d1; /* Resaltar fila al pasar el ratón */
+}
+
+/* --- Hipervínculos --- */
+a {
+    color: #4a7c59;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section#recursos ul li a {
+    font-weight: bold;
+}
